@@ -1,8 +1,6 @@
-<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
-                  xmlns:v1="http://schemas.conversesolutions.com/xsd/dmticta/v1">
-    <soapenv:Header/>
-    <soapenv:Body>
-        <todo:getTodoRequest xmlns:todo="http://citrusframework.org/samples/todolist">
-        </todo:getTodoRequest>
-    </soapenv:Body>
-</soapenv:Envelope>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+    <soap:Body>
+        <findMe>
+        </findMe>
+    </soap:Body>
+</soap:Envelope>

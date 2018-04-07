@@ -10,7 +10,8 @@
     <version>1.0.0</version>
 
     <modules>
-        <module>simulator</module>
+        <module>soap-1_1</module>
+        <module>soap-1_2</module>
     </modules>
     <name>SOAP simulator</name>
 
